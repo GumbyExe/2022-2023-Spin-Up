@@ -22,8 +22,9 @@ void cataFor(double sec, int percent){
 void resetCata(){
   while(!cataLimit.get_value()) {
     setCata(-100);
+
   }
-  setCata(0);
+  setCata(0); 
 }
 
 void fireCata(){
